@@ -1,0 +1,15 @@
+---
+---
+@charset "utf-8";
+
+@import "_variables";
+@import "_header";
+
+body {
+  background-color: $grey1;
+  color: $navy2;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
