@@ -1,7 +1,9 @@
 # riverside
 Riverside is an Ultimate disc team from Austin, TX
 
-# install
+## build
+
+### install
  * Install Ruby
  * Install bundler: `gem install bundler`
  * Install project dependencies:
@@ -11,5 +13,9 @@ Riverside is an Ultimate disc team from Austin, TX
   $ bundle install
 ```
 
-# serve
+### serve
 `bundle exec rake`
+
+## dist
+
+copy `_site/` to deployment

@@ -3,7 +3,9 @@
 @charset "utf-8";
 
 @import "_variables";
-@import "_header";
+@import "_includes/_header";
+@import "_includes/_footer";
+@import "_layouts/_default";
 
 body {
   background-color: $grey1;
@@ -12,4 +14,17 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
+}
+
+html,
+body,
+.base {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.stretch-xs {
+  align-items: stretch;
 }

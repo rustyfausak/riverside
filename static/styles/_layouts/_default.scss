@@ -1,0 +1,16 @@
+.layout-default {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .main {
+    order: 2;
+    flex-grow: 1;
+  }
+  .header {
+    order: 1;
+  }
+  .footer {
+    order: 3;
+  }
+}

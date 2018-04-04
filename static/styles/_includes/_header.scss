@@ -1,0 +1,56 @@
+.header {
+  background-color: $navy;
+  color: $white;
+  .logo {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    background-image: url($site_url + '/images/riverside-logo.png');
+    background-repeat: no-repeat;
+    background-size: 9rem auto;
+    background-position: center center;
+    @media only screen and (min-width: $sm) {
+      background-position: left center;
+      height: 5rem;
+    }
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    @media only screen and (min-width: $sm) {
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+    li {
+      display: flex;
+      @media only screen and (min-width: $sm) {
+        margin-right: 1rem;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        text-align: right;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        flex-grow: 1;
+        @media only screen and (min-width: $sm) {
+          padding: 0.5rem 2rem;
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

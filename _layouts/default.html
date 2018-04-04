@@ -2,8 +2,10 @@
 layout: base
 ---
 
-{% include header.html %}
-<main class="main">
-  {{ content }}
-</main>
-{% include footer.html %}
+<div class="layout-default">
+  <main class="main">
+    {{ content }}
+  </main>
+  {% include header.html %}
+  {% include footer.html %}
+</div>
