@@ -34,8 +34,8 @@
       a {
         display: flex;
         align-items: center;
-        text-align: right;
-        padding: 1rem 2rem;
+        text-align: left;
+        padding: 0.75rem 0;
         text-transform: uppercase;
         font-weight: 300;
         letter-spacing: 1px;
@@ -44,7 +44,8 @@
         text-decoration: none;
         flex-grow: 1;
         @media only screen and (min-width: $sm) {
-          padding: 0.5rem 2rem;
+          padding: 0.5rem 1rem;
+          text-align: center;
           &:hover {
             background-color: rgba(0, 0, 0, 0.2);
             color: $white;

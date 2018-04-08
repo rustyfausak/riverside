@@ -6,6 +6,7 @@
 @import "_includes/_header";
 @import "_includes/_footer";
 @import "_layouts/_default";
+@import "_page";
 
 body {
   background-color: $grey1;
@@ -28,3 +29,12 @@ body,
 .stretch-xs {
   align-items: stretch;
 }
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text-center { text-align: center; }
