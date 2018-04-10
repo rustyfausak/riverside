@@ -83,6 +83,12 @@ a {
 
 .title {
   font-weight: bold;
+  small {
+    display: block;
+    color: $grey4;
+    font-weight: 300;
+    font-size: 70%;
+  }
 }
 
 .col-title .title {
@@ -117,4 +123,8 @@ a {
     background-color: $navy1;
     text-decoration: none
   }
+}
+
+.text-muted {
+  color: $grey3;
 }
