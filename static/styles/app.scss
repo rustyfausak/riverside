@@ -83,11 +83,15 @@ a {
 
 .title {
   font-weight: bold;
+  padding: 0 0.5rem;
   small {
     display: block;
     color: $grey4;
     font-weight: 300;
     font-size: 70%;
+  }
+  @media only screen and (min-width: $sm) {
+    padding: 0;
   }
 }
 
@@ -127,4 +131,43 @@ a {
 
 .text-muted {
   color: $grey3;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  th {
+    border-bottom: 1px solid $grey2;
+    color: $grey4;
+    font-weight: 300;
+    text-align: left;
+  }
+  th, td {
+    padding: 0.25rem 0.5rem;
+  }
+  tr:nth-child(odd) td {
+    background-color: $grey1;
+  }
+}
+
+address {
+  white-space: pre-line;
+}
+
+dt {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $grey4;
+}
+dd {
+  margin-bottom: 0.5rem;
+}
+
+.hidden-xs {
+  display: none;
+  @media only screen and (min-width: $sm) {
+    display: initial;
+  }
 }
