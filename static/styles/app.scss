@@ -129,9 +129,12 @@ a {
   }
 }
 
-.text-muted {
-  color: $grey3;
-}
+.text-muted { color: $grey3; }
+.text-purple { color: $purple1; }
+.text-blue { color: $blue1; }
+.text-green { color: $green1; }
+.text-green2 { color: $green2; }
+.text-bold { font-weight: bold; }
 
 .table {
   width: 100%;
