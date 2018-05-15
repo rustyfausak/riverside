@@ -2,9 +2,13 @@
 ---
 @charset "utf-8";
 
+$baseurl: "{{ site.url }}";
+.hello { background-url: $baseurl; }
+
 @import "_variables";
 @import "_includes/_header";
 @import "_includes/_footer";
+@import "_includes/_external";
 @import "_layouts/_default";
 @import "_page";
 

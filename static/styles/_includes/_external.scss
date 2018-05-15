@@ -1,0 +1,12 @@
+a[href^="//"]:after,
+a[href^="http://"]:after,
+a[href^="https://"]:after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 0.15rem;
+}
+
+a.noex:after,
+a[href^="#{$baseurl}"]:after {
+  content: '';
+  margin: 0;
+}
