@@ -59,6 +59,8 @@ a {
   color: $blue2;
 }
 .text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
 
 .imagetron {
   background-position: center center;
@@ -182,3 +184,6 @@ dd {
     display: initial;
   }
 }
+
+.win { color: $green; }
+.loss { color: $red; }
