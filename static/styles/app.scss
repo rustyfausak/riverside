@@ -110,16 +110,21 @@ a {
   margin-bottom: 0.5rem;
 }
 
+caption,
 .subtitle {
-  font-weight: 300;
-  margin: 0;
-  font-size: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: $grey5;
+  background-color: $navy2;
+  font-weight: normal;
   color: $white;
-  display: inline-block;
-  padding: 0.1rem 0.25rem 0.1rem 1.5rem;
+  font-size: 16px;
+  padding: 0.25rem 0.5rem;
+  line-height: 1.4;
+  text-align: left;
+}
+.subtitle {
+  display: block;
+  margin: 0 -0.5rem 1rem;
 }
 
 .spacer1 {
@@ -148,18 +153,23 @@ a {
 
 .table {
   width: 100%;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
+  border-collapse: separate;
+  border-spacing: 2px;
   th {
-    border-bottom: 1px solid $grey2;
     color: $grey4;
     font-weight: 300;
     text-align: left;
   }
-  th, td {
+  caption, th, td {
     padding: 0.25rem 0.5rem;
   }
   tr:nth-child(odd) td {
     background-color: $grey1;
+  }
+  caption {
+    background-color: $blue2;
+    color: $white;
   }
 }
 
@@ -185,5 +195,5 @@ dd {
   }
 }
 
-.win { color: $green; }
-.loss { color: $red; }
+.win { color: $green2; }
+.loss { color: $red2; }
