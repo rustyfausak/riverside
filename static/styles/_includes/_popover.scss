@@ -1,0 +1,24 @@
+.popover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popover-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 5rem;
+  a {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.popover-inner {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

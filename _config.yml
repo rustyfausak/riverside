@@ -28,20 +28,22 @@ timezone: America/Chicago
 sass:
   sass_dir: static/styles
 theme: false
+collections:
+  - players
 
 # Excludes
 exclude:
-- CNAME
-- Gemfile
-- Gemfile.lock
-- node_modules
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-- LICENSE
-- LICENSE.md
-- README
-- README.md
-- Rakefile
-- riverside.sublime-project
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE
+  - LICENSE.md
+  - README
+  - README.md
+  - Rakefile
+  - riverside.sublime-project
