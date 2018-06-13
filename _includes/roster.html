@@ -1,0 +1,24 @@
+<h2 class="subtitle">{{ include.team }}</h2>
+
+<div class="player-cards">
+  {% for player in site.players %}
+    {% capture subpath %}{{ include.year }}/{{ include.team | downcase }}{% endcapture %}
+    {% if player.path contains subpath %}
+      <div class="player-card">
+        <div class="player-card-photo">
+          <a href="#" class="img-view">
+            {% if player.is_photo_missing %}
+               <img class="player-photo" src="{{ site.url }}/static/photos/players/missing.png">
+            {% else %}
+              <img class="player-photo" src="{{ site.url }}/static/photos/players/{{ include.year }}/{{ include.team | downcase }}/{{ player.name | slugify }}.jpg">
+            {% endif %}
+          </a>
+        </div>
+        <div class="player-card-name">{{ player.name }}</div>
+        {% if player.number %}
+          <div class="player-card-number">#{{ player.number }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

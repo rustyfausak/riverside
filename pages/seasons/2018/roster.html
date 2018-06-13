@@ -16,26 +16,8 @@ permalink: seasons/2018/roster
 
   <div class="page row">
     <div class="pad col-xs-12">
-      <h2 class="subtitle">Riverside</h2>
-
-      <div class="player-cards">
-        {% for player in site.players %}
-          {% if player.team == 'Riverside 2018' %}
-            <div class="player-card">
-              <div class="player-card-photo">
-                <a href="#" class="img-view"><img class="player-photo" src="{{ site.url }}{{ player.photo }}"></a>
-              </div>
-              <div class="player-card-name">{{ player.name }}</div>
-              {% if player.number %}
-                <div class="player-card-number">#{{ player.number }}</div>
-              {% endif %}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <h2 class="subtitle">Messengers</h2>
-      <p><i>TBD</i></p>
+      {% include roster.html team="Riverside" year="2018" %}
+      {% include roster.html team="Messengers" year="2018" %}
     </div>
   </div>
 </div>
