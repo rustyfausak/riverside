@@ -1,4 +1,4 @@
 ---
 name: Ricky Stanfield
-number:
+number: 69
 ---
