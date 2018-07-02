@@ -51,6 +51,16 @@ a {
     text-decoration: underline;
   }
 }
+.done {
+  color: $grey3;
+  a {
+    color: $grey4;
+    text-decoration: underline;
+  }
+  a:after {
+    filter: grayscale(100%);
+  }
+}
 .breadcrumb {
   color: $grey3;
   font-weight: 300;

@@ -1,5 +1,5 @@
 ---
 name: "Bonesaw"
-number:
+number: 13
 photo_filename: bonesaw.jpg
 ---
