@@ -54,8 +54,7 @@ a {
 .done {
   color: $grey3;
   a {
-    color: $grey4;
-    text-decoration: underline;
+    color: $grey4b;
   }
   a:after {
     filter: grayscale(100%);
