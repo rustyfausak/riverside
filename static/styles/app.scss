@@ -85,6 +85,12 @@ a {
     background-size: cover;
   }
 }
+.imagetron-tall {
+  min-height: 400px;
+  @media only screen and (min-width: $sm) {
+    min-height: 700px;
+  }
+}
 
 .hello {
   font-size: 20px;
