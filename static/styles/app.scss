@@ -28,6 +28,13 @@ body,
   height: 100%;
 }
 
+.toggler {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #aaa;
+}
+.hidden { display: none; }
+
 .flex {
   display: flex;
 }
@@ -128,11 +135,7 @@ a {
 
 caption,
 .subtitle {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: $navy2;
   font-weight: normal;
-  color: $white;
   font-size: 16px;
   padding: 0.25rem 0.5rem;
   line-height: 1.4;
@@ -141,6 +144,9 @@ caption,
 .subtitle {
   display: block;
   margin: 0 -0.5rem 1rem;
+  font-size: 22px;
+  border-bottom: 1px solid $grey2;
+  border-radius: 3px;
 }
 
 .spacer1 {
@@ -184,9 +190,16 @@ caption,
     background-color: $grey1;
   }
   caption {
-    background-color: $blue2;
     color: $white;
+    background-color: $grey5;
   }
+}
+
+.tbd {
+  font-size: 50px;
+  color: $grey2;
+  text-align: center;
+  margin: 20% auto;
 }
 
 address {

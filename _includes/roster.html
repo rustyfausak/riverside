@@ -16,7 +16,12 @@
             {% endif %}
           </a>
         </div>
-        <div class="player-card-name">{{ player.name }}</div>
+        <div class="player-card-name">
+          {{ player.name }}
+          {% if player.is_captain %}
+            (C)
+          {% endif %}
+        </div>
         {% if player.number %}
           <div class="player-card-number">#{{ player.number }}</div>
         {% endif %}
