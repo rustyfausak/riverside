@@ -1,5 +1,5 @@
-# riverside
-Riverside is an Ultimate disc team from Austin, TX
+# Riverside Ultimate Pages
+Riverside is an ultimate frisbee disc team from Austin, TX. This repository contains the code for the website for the team. The website is located at http://riversideultimate.org.
 
 ## build
 
@@ -17,6 +17,8 @@ Riverside is an Ultimate disc team from Austin, TX
 
 ### serve
 `bundle exec rake`
+
+Server will start at `127.0.0.1:4000` by default.
 
 ## dist
 

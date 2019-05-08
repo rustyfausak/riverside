@@ -1,5 +1,5 @@
 ---
 name: Rusty Fausak
-number: 2
+number: 60
 is_captain: 1
 ---
