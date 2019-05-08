@@ -11,6 +11,8 @@ Riverside is an Ultimate disc team from Austin, TX
 ```
   $ cd riverside
   $ bundle install
+  OR
+  $ bundle update --bundler
 ```
 
 ### serve
